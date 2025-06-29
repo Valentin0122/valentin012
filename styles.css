@@ -1,10 +1,15 @@
- body {
-      font-family: sans-serif;
-      background-color: #f0f0f0;
-	  font-size: 25px
-    }
-    h1 {
-      color: white;
-	  margin: 0 auto;
-	  border: solid 2px white;
-    }
+#centrified {
+  margin: auto;
+  text-align: center;
+}
+
+.group{
+  width: 960px;
+  background-color: black;
+  margin:auto;
+}
+
+body{
+  font-family: sans-serif;
+  font-weight: 300;
+}
