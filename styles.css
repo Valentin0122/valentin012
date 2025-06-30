@@ -5,11 +5,14 @@
 
 .center{
   width: 960px;
-  background-color: rgba(148, 148, 148, 0.288);
   margin:auto;
-  border-color: rgba(49, 49, 49, 0.897);
+  border-color: rgb(255, 255, 255);
   border-width: 10px;
   border-style: solid;
+  border-radius: 10px;
+  backdrop-filter: blur(10px);
+  outline: 2px solid rgb(255, 0, 255);
+  outline-offset: -12px;
 }
 
 body{
@@ -20,5 +23,18 @@ body{
 #principaltext{
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: rgb(255, 255, 255);
-  font-size: 25px;
+  font-size: 30px;
+}
+
+#textshadow{
+  text-shadow: 0px 5px 0px black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(255, 255, 255);
+  font-size: 50px;
+  font-weight: 900;
+}
+
+header{
+  padding-bottom: 25px;
+  padding-top: 10px;
 }
