@@ -3,13 +3,22 @@
   text-align: center;
 }
 
-.group{
+.center{
   width: 960px;
-  background-color: black;
+  background-color: rgba(148, 148, 148, 0.288);
   margin:auto;
+  border-color: rgba(49, 49, 49, 0.897);
+  border-width: 10px;
+  border-style: solid;
 }
 
 body{
   font-family: sans-serif;
   font-weight: 300;
+}
+
+#principaltext{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(255, 255, 255);
+  font-size: 25px;
 }
