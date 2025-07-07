@@ -1,10 +1,13 @@
-#centrified {
+.content {
   margin: auto;
   text-align: center;
+  width: 50%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #ffffff;
 }
 
 .center{
-  width: 960px;
+  width: 25rem;
   margin:auto;
   border-color: rgb(255, 255, 255);
   border-width: 10px;
@@ -19,17 +22,14 @@
 body{
   font-family: sans-serif;
   font-weight: 300;
+  background-image: url("fondo1.jpg");
+  align-content: center;
 }
 
 #principaltext{
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: rgb(255, 255, 255);
   font-size: 30px;
-}
-
-header{
-  padding-bottom: 25px;
-  padding-top: 10px;
 }
 
 .bienvenido{
@@ -39,4 +39,30 @@ header{
   color: rgb(255, 255, 255);
   font-size: 50px;
   font-weight: 900;
+}
+
+.title{
+  height: 10rem;
+  margin: 4rem;
+  margin:auto;
+}
+
+.color1{
+  margin: auto;
+  text-align: center;
+  width: 960px;
+  margin:auto;
+  border-color: rgb(19, 0, 128);
+  border-width: 10px;
+  border-style: solid;
+  border-radius: 10px;
+  backdrop-filter: blur(10px);
+  outline: 2px solid rgb(0, 204, 255);
+  outline-offset: -12px;
+  padding: 2rem;
+  color: white;
+}
+
+img{
+  margin: 1rem auto 1rem;
 }
