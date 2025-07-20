@@ -8,8 +8,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 	function handleFormSubmit(e) {
 		e.preventDefault();
-
-		const name = form.name.value.trim();
+        const name = form.name.value.trim() || "Anónimo";
 		const comment = form.comment.value.trim();
 		if (!name || !comment) return;
 
