@@ -1,52 +1,51 @@
 <!DOCTYPE html>
-
 <html>
-
 <head>
 	<link rel="stylesheet" href="styles.css">
-	<title>
-		hola
-	</title>
+	<title> hola </title>
 </head>
 
 <body>
+	<main>
+		<header>
+			<img src="title.png" class="title">
+		</header>
 
-	<center>
-	<img src="title.png" class="title">
-	</center>
-	<div class="center">
-		<h1 class="bienvenido">
-			Bienvenido!
-		</h1>
-		<div class="content">
-			<p>
-				que es esta pagina?
-				esta pagina es producto de mi imaginacion, osea, quise hacer esta pagina por aburrimiento y
-				ver que tanto puedo crear.
-			</p>
-			<a href="pages.html" style="color: white;">
-				Otras paginas
-			</a>
-		</div>
-	</div>
-	<div class="comment">
-		<h2 class="comment-title">Deja un comentario</h2>
+		<section class="center">
+			<h1 class="bienvenido">
+				Bienvenido!
+			</h1>
+			<div class="content">
+				<p>
+                ¿Qué es esta página?<br>
+                Esta página es producto de mi imaginación, o sea, quise hacer esta página por aburrimiento y
+                ver qué tanto puedo crear.
+				</p>
+				<nav>
+					<a href="pages.html" style="color: white;">
+						Otras paginas
+					</a>
+				</nav>
+			</div>
+		</section>
 
-		<!-- Lista de comentarios -->
-		<div id="comments-container"></div>
-
-		<!-- Formulario -->
-		<form id="comment-form">
-			<input type="text" name="name" placeholder="Nombre">
-			<br>
-			<textarea name="comment" placeholder="Comentario" required></textarea>
-			<br>
-			<input type="submit" value="Enviar">
-		</form>
-	</div>
-
-
-	<script src="script.js"></script>
+		<section class="comment">
+			<h2 class="comment-title">Deja un comentario</h2>
+	
+			<!-- Lista de comentarios -->
+			<span id="comments-container"></span>
+	
+			<!-- Formulario -->
+			<form id="comment-form">
+				<input type="text" name="name" placeholder="Nombre">
+				<textarea name="comment" placeholder="Comentario" required></textarea>
+				<button type="submit">Enviar</button>
+			</form>
+		</section>
+	
+	
+		<script src="script.js"></script>
+	</main>
 	
 </body>
 
