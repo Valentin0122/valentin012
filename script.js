@@ -51,7 +51,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 <div>
                     <strong>${name}</strong> <small>${date}</small>
                 </div>
-                
+                <button class="delete-btn" title="Eliminar comentario">Borrar</button>
             </div>
             <p>${comment}</p>
             <hr>
