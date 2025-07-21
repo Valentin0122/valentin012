@@ -3,6 +3,7 @@
 <html>
 
 <head>
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<link rel="stylesheet" href="styles.css">
 	<title>
 		hola
@@ -34,19 +35,20 @@
 
 		<!-- Lista de comentarios -->
 		<div id="comments-container"></div>
-
 		<!-- Formulario -->
 		<form id="comment-form">
-			<input type="text" name="name" placeholder="Nombre">
-			<br>
-			<textarea name="comment" placeholder="Comentario" required></textarea>
-			<br>
-			<input type="submit" value="Enviar">
+			<input class="comment-input" type="text" name="name" placeholder="Nombre" />
+			<br />
+			<textarea class="comment-textarea" name="comment" placeholder="Comentario" required></textarea>
+			<br />
+			<input class="comment-submit" type="submit" value="Enviar" />
 		</form>
 	</div>
 
 
-	<script src="script.js"></script>
+<script src="./config.js"></script>
+<script src="./key.js"></script>
+<script src="./comment.js"></script>
 </body>
 
 </html>
