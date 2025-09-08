@@ -127,3 +127,12 @@ body{
   font-size: 50px;
   font-weight: 900;
 }
+
+.cattext2{
+  text-align: center;
+  text-shadow: 0px 2.5px 0px rgb(255, 0, 255);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(0, 238, 255);
+  font-size: 15px;
+  font-weight: 750;
+}
